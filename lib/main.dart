@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'home.dart';
+// import 'memberShipInfo.dart';
+import 'package:my_first_flutter/ menu/menu.dart';
 
 void main() => runApp(const MyApp());
 
@@ -11,12 +12,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final ThemeData theme = ThemeData();
-    return MaterialApp(
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'My First Flutter App by coffee farm.',
-      theme: ThemeData(
-        primarySwatch: Colors.orange
-      ),
-      home: const MyHomePage(),
+      // home: MyHomePage(),
+      home: Menu(),
     );
   }
 }
