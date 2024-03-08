@@ -15,12 +15,6 @@ class Menu extends StatelessWidget {
           ),
           centerTitle: true,
           elevation: 0.0,
-          // leading: IconButton(
-          //   icon: const Icon(Icons.menu, color: Colors.white),
-          //   onPressed: () {
-          //     print('Pressed Menu');
-          //   },
-          // ),
           actions: <Widget>[
             IconButton(
               icon: const Icon(Icons.shopping_cart, color: Colors.white),
@@ -72,7 +66,7 @@ class Menu extends StatelessWidget {
               onTap: () {
                 print('OnTapped Home');
               },
-              trailing: Icon(Icons.add, color: Colors.grey,),
+              trailing: const Icon(Icons.add, color: Colors.grey,),
             ),
             ListTile(
               leading: const Icon(Icons.question_answer, color: Colors.grey,),
@@ -80,7 +74,7 @@ class Menu extends StatelessWidget {
               onTap: () {
                 print('OnTapped Question_Answer');
               },
-              trailing: Icon(Icons.add, color: Colors.grey,),
+              trailing: const Icon(Icons.add, color: Colors.grey,),
             ),
             ListTile(
               leading: const Icon(Icons.access_alarm, color: Colors.grey,),
@@ -88,7 +82,7 @@ class Menu extends StatelessWidget {
               onTap: () {
                 print('OnTapped Set Alarm');
               },
-              trailing: Icon(Icons.add, color: Colors.grey,),
+              trailing: const Icon(Icons.add, color: Colors.grey,),
             ),
             ListTile(
               leading: const Icon(Icons.settings, color: Colors.grey,),

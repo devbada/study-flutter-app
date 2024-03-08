@@ -1,13 +1,13 @@
 
 import 'package:flutter/material.dart';
 
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({super.key});
+class MemberShipInfo extends StatelessWidget {
+  const MemberShipInfo({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.amber[800],
+      backgroundColor: Colors.deepPurpleAccent[100],
       appBar: AppBar(
         title: const Text('CLUB IU', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
         centerTitle: true,
